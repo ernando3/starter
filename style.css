@@ -212,3 +212,49 @@ main {
 .hidden {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 50rem;
+    height: 52rem;
+  }
+  .player {
+    padding: 4rem;
+  }
+  .name {
+    font-size: 2rem;
+
+  }
+  .score {
+    font-size: 6.5rem;
+  }
+  .current {
+    width: 80%;
+    font-size: 58%;
+  }
+  .current-label {
+    font-size: 1.5rem;
+  }
+  .current-score {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.55rem 1.5rem;
+  }
+  .btn--rules {
+    top: 2.5rem;
+  }
+  .btn--hold {
+    top: 39.1rem;
+  }
+  .btn--new {
+    top: 7rem;
+  }
+  .btn--roll {
+    top: 33.3rem
+  }
+  .dice {
+    top: 18.5rem
+  }
+}
